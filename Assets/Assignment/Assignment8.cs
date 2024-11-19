@@ -15,7 +15,7 @@ public class NewBehaviourScript : MonoBehaviour
 
 
         while(true){
-            int num = random.Next(1, 21);
+            int num = random.Next(1, 21);  
 
             if (num == 5){Debug.Log("its 5 skip this loop"); continue;}
 
@@ -42,6 +42,8 @@ public class NewBehaviourScript : MonoBehaviour
         }
 
         Debug.Log("Your sentence is: "+result);
+
+        
 
 
 
